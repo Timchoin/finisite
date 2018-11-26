@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FINISITE-clone",
-    "currentPage": "contact.html",
+    "currentPage": "work.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -513,11 +513,11 @@
               }
             },
             "H4": {
-              "color": "#ff7f9f"
+              "color": "#ff3366"
             }
           },
           "_name": "features13",
-          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitels\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Tekstbevattende afbeeldingen\n        </h2>\n\n        <div class=\"media-container-row container\" mbr-cards=\"bootstrap\">\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    PERFORMANCES</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"@PROJECT_PATH@/assets/images/img-9004.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    INSTALLATIONS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Plaats de kant-en-klaar blocks op een pagina, bewerk de inhoud en publiceer - zonder technische voorkennis.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"../_images/background5.jpg\" alt=\"Mobirise\">\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    Onbeperkt aantal sites\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is.\n                </p>\n            </div>    \n        </div>\n</div></section>",
+          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitels\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Tekstbevattende afbeeldingen\n        </h2>\n\n        <div class=\"media-container-row container\" mbr-cards=\"bootstrap\">\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <a href=\"lequatrostagione.html\"><img src=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" alt=\"Mobirise\" title></a>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"lequatrostagione.html\" class=\"text-secondary\">\n                    PERFORMANCES</a></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"></p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <a href=\"SOAP.html\"><img src=\"@PROJECT_PATH@/assets/images/img-9004.jpg\" alt=\"Mobirise\" title></a>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    INSTALLATIONS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Plaats de kant-en-klaar blocks op een pagina, bewerk de inhoud en publiceer - zonder technische voorkennis.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"../_images/background5.jpg\" alt=\"Mobirise\">\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    Onbeperkt aantal sites\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is.\n                </p>\n            </div>    \n        </div>\n</div></section>",
           "_cid": "r7cp6vCceW",
           "_anchor": "features13-e",
           "_protectedParams": [],
@@ -572,11 +572,11 @@
               }
             },
             "H4": {
-              "color": "#ff7f9f"
+              "color": "#ff3366"
             }
           },
           "_name": "features13",
-          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitels\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Tekstbevattende afbeeldingen\n        </h2>\n\n        <div class=\"media-container-row container\" mbr-cards=\"bootstrap\">\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"@PROJECT_PATH@/assets/images/zeep1.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">VIDEOS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise biedt verschillende thema's aan die sliders, galerijen, artikel-blocks en zoveel meer bevatten.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"@PROJECT_PATH@/assets/images/dsc-208.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    HAPPENINGS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Plaats de kant-en-klaar blocks op een pagina, bewerk de inhoud en publiceer - zonder technische voorkennis.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"../_images/background5.jpg\" alt=\"Mobirise\">\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    Onbeperkt aantal sites\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is.\n                </p>\n            </div>    \n        </div>\n</div></section>",
+          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitels\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/img/06.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Tekstbevattende afbeeldingen\n        </h2>\n\n        <div class=\"media-container-row container\" mbr-cards=\"bootstrap\">\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <a href=\"cinchallah.html\"><img src=\"@PROJECT_PATH@/assets/images/zeep1.jpg\" alt=\"Mobirise\" title></a>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">VIDEOS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise biedt verschillende thema's aan die sliders, galerijen, artikel-blocks en zoveel meer bevatten.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <a href=\"paperplanewar.html\"><img src=\"@PROJECT_PATH@/assets/images/dsc-208.jpg\" alt=\"Mobirise\" title></a>\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    HAPPENINGS</h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Plaats de kant-en-klaar blocks op een pagina, bewerk de inhoud en publiceer - zonder technische voorkennis.\n                </p>\n            </div>\n            <div class=\"card col-12 col-md-6 p-5 m-3 align-center\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img\">\n                    <img src=\"../_images/background5.jpg\" alt=\"Mobirise\">\n                </div>\n                <h4 class=\"card-title py-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                    Onbeperkt aantal sites\n                </h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    Mobirise laat u toe om een onbeperkt aantal sites te bouwen daar het een desktop-app is.\n                </p>\n            </div>    \n        </div>\n</div></section>",
           "_cid": "r7cphuETEa",
           "_anchor": "features13-f",
           "_protectedParams": [],
@@ -590,7 +590,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Template 4",
-        "order": 7
+        "order": 17
       },
       "components": [
         {
@@ -653,6 +653,877 @@
           "_customHTML": "<section class=\"mbr-section form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    CONTACTFORMULIER\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Voeg eenvoudig inschrijf- en contactformulieren toe zonder serverintegratie.\n                </h3>\n            </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"media-container-column col-lg-8\">\n                    <div data-form-alert hidden>E-mail send, piep piep.</div>\n            \n                    <form class=\"mbr-form\" action=\"tim.choin@student.luca-arts.be\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row row-sm-offset\">\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"name\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"name\">Name</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" data-form-field=\"Name\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"email\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"email\">Email</label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" data-form-field=\"Email\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"phone\" hidden=\"hidden\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"phone\" hidden=\"hidden\">Telefoon</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" hidden=\"hidden\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\" data-for=\"message\">\n                            <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"message\">Message</label>\n                            <textarea type=\"text\" class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\"></textarea>\n                        </div>\n            \n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\"><a href type=\"submit\" class=\"btn btn-primary btn-form\" data-app-placeholder=\"Type Text\">Send</a></span>\n                    </form>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r7cuCztIN6",
           "_anchor": "form1-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "lequatrostagione.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 PER 1",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">PERFORMANCE</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9mNr5rZCI",
+          "_anchor": "content5-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" parallax selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>LA QUATRO STAGIONE</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Long durational macarenadancing, no sound, public space.</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"locoslowmotion.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"kisscross.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/tumblr-obzpwyorzo1slbsr9o6-1280.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9mNr5WgLE",
+          "_anchor": "header4-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "sailing.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 PER 3",
+        "order": 9
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">PERFORMANCE</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q8s0G3Sa",
+          "_anchor": "content5-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>SAILING</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">You are in the boat, full sea, and the wind is blowing at its best. You wan't to scream while looking back to the romanticism of past ages. I am sailing, I am sailing, Home again, across the sea.</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"kisscross.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"locoslowmotion.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/12919489-10206166287421528-1810898111-o.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q8s1tXpQ",
+          "_anchor": "header4-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "kisscross.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 PER 2",
+        "order": 8
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">PERFORMANCE</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q7CVL7nn",
+          "_anchor": "content5-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>KISS-CROSS-HORIZON</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Make a line using your lips. Draw your own horizon. The kiss of Caspar Friedrich.</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"lequatrostagione.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"sailing.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/12120190-1710936665803989-1396886054726449564-o.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q7CWdHOy",
+          "_anchor": "header4-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "locoslowmotion.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 PER 4",
+        "order": 10
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">PERFORMANCE</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q9cQgnEp",
+          "_anchor": "content5-8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/tumblr-p987of0d891slbsr9o1-1283.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>LOCOSLOWMOTION</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Dystopian performance where you can meet a head, that lipsynchs for you, like it is a blank sculpture trying to connect with you. Popsongs are one of the most common elements we share in this culture, but what happens if we slow them down? What feeling does emerge in this uncanny sounds and slow movements?</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"locoslowmotion.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"lequatrostagione.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/tumblr-ny497jniqn1slbsr9o10-1280-1280x853.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Q9cQUK2T",
+          "_anchor": "header4-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "cinchallah.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 VID 1",
+        "order": 11
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">VIDEO</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9QarjZBdn",
+          "_anchor": "content5-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>\n                    CINCH'ALLAH</i></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    A contemporary pelgrimage. Speeded up version of a walk from Ghent(Belgium) to Santiago de Compostella(Spain).\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"thedrop.html\" data-app-placeholder=\"Type Text\">BACK</a> <a class=\"btn btn-md btn-white-outline\" href=\"notblue.html\" data-app-placeholder=\"Type Text\">\n                        NEXT</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "r9Qbr3X0RU",
+          "_anchor": "header1-e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Breedte\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=cAykTQTN46g&t=1386s&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "r9QbWpohbX",
+          "_anchor": "video2-f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "notblue.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 VID 2",
+        "order": 12
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">VIDEO</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Qc6sZoCH",
+          "_anchor": "content5-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>\n                    NOT BLUE</i></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><br>‘Not Blue’ tries to connect a practical, more conservative world, in which we grew up, and the struggling urge to poetically articulate ourselves within this society. This confrontation result in a shift of moralities, motivations, and it questions usual symbols. Blue is the color that is given to boys by birth. This color will dictate fixed rules, and the inseparable human pink will have to be suppressed</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"cinchallah.html\" data-app-placeholder=\"Type Text\">BACK</a> <a class=\"btn btn-md btn-white-outline\" href=\"thedrop.html\" data-app-placeholder=\"Type Text\">\n                        NEXT</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "r9Qc6tFjef",
+          "_anchor": "header1-h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Breedte\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://vimeo.com/228187284?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "r9Qc6ueHtT",
+          "_anchor": "video2-i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "thedrop.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 VID 3",
+        "order": 13
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">VIDEO</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9QcGoeRYb",
+          "_anchor": "content5-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#0f7699\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>\n                    THE DROP</i></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><br>Reverse the possibility.</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"notblue.html\" data-app-placeholder=\"Type Text\">BACK</a> <a class=\"btn btn-md btn-white-outline\" href=\"cinchallah.html\" data-app-placeholder=\"Type Text\">\n                        NEXT</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "r9QcGp5acs",
+          "_anchor": "header1-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".video-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "video2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Breedte\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://vimeo.com/200572082?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_cid": "r9QcGqhILQ",
+          "_anchor": "video2-l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "SOAP.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 INS 1",
+        "order": 14
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">PERFORMANCE</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Qe0NZASj",
+          "_anchor": "content5-m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/zeep1.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>SOAP</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Making a big bar of soap. (in collaboration with Celine Aernoudt.)</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"timchoinhates.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"timchoinhates.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/zeep4.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Qe0ODDl4",
+          "_anchor": "header4-n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "timchoinhates.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 INS 2",
+        "order": 15
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/rscn1069.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">INSTALLATION</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Qex5sfdZ",
+          "_anchor": "content5-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/zeep1.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>TIM CHOIN HATES</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">liars, beggars, rich men, ecologic thinking, penis, kissing in public, spaghetti,.... (by the voice of a endlessly printing printer.)</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"SOAP.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"SOAP.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/tumblr-olgk33rrpc1slbsr9o6-1280.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9Qex6kFw8",
+          "_anchor": "header4-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "paperplanewar.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Template 2 HAP 1",
+        "order": 16
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#ff7f9f"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#55b4d4",
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/dsc-210.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">HAPPENING</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><a href=\"work.html\">back to<b> <i>finished</i></b><i> work</i></a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Creëer je volgende webproject met een helder ontwerp en verfijnde codemogelijkheden\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"home.html\" data-app-placeholder=\"Type Text\">HOME</a>  <a class=\"btn btn-primary-outline\" href=\"pinkblu.html\" data-app-placeholder=\"Type Text\">UNDER CONSTRUCTION</a>\n                    <a class=\"btn btn-primary-outline\" href=\"contact.html\" data-app-placeholder=\"Type Text\">CONTACT</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9QhqniDjR",
+          "_anchor": "content5-s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "H3": {
+              "color": "#ff7f9f"
+            },
+            "H1": {
+              "color": "#55b4d4"
+            },
+            "I": {
+              "color": "#ff3366"
+            }
+          },
+          "_name": "header4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media formaat\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"50\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/dsc-209.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#5c698e\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\"><font color=\"#55b4d4\"><b><i>PAPER PLANE WAR</i></b></font></h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Imagine a shoppingcenter, the place where people spent all their money without thinking what they are actually doing. Imagine terrorist attacks, and how they occur in places where a lot of people gather. What is fear, and is this fear pushing us to start buying things, just not to think about what grasps our head.</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white-outline\" href=\"audience.html\" data-app-placeholder=\"Type Text\">BACK</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"drag.html\" data-app-placeholder=\"Type Text\">NEXT</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/tumblr-owktc8jlos1slbsr9o8-1280.jpg\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "r9QhqnVOS5",
+          "_anchor": "header4-t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
