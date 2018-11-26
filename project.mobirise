@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FINISITE-clone",
-    "currentPage": "lequatrostagione.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -85,8 +85,8 @@
               "background-image": "url(@bg-value)"
             },
             "H1": {
-              "color": "#ff7f9f",
-              "text-align": "left"
+              "color": "#ff3366",
+              "text-align": "center"
             },
             "I": {
               "color": "#bf92bb"
