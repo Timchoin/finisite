@@ -129,11 +129,11 @@
         {
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "postToLoad": 3,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "postToLoad": "5",
             "facebook": "fam.mokatine.5",
-            "twitter": "@MokaTines",
+            "twitter": "@mokatines",
             "google": "",
             "youtube": "",
             "bgColorRadio": true,
