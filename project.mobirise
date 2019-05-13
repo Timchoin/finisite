@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.4",
     "siteFonts": [],
-    "uniqCompNum": 6,
+    "uniqCompNum": 10,
     "versionPublish": "4.9.4",
     "screenshot": "screenshot.png"
   },
@@ -110,7 +110,7 @@
             "bgColorRadio": true,
             "bgColor": "#232323",
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "bgImage": "/addons/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
             "overlay": false,
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
@@ -127,7 +127,7 @@
           "_anchor": "instagram-feed-block-4"
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "loadsvg": "/addons/social-feed/feed/assets/loading.svg",
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "1",
@@ -139,7 +139,7 @@
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "bgImage": "/addons/social-feed/feed/assets/comments_bg.jpg",
             "overlay": true,
             "overlayColor": "#7e9b9f",
             "overlayOpacity": 0.6
