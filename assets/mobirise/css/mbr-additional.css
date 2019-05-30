@@ -1561,6 +1561,41 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rrXsDpg5lf {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #427689;
+}
+.cid-rrXsDpg5lf P {
+  color: #767676;
+}
+.cid-rrXs06OtVD {
+  padding-top: 75px;
+  padding-bottom: 120px;
+  background-color: #427689;
+}
+.cid-rrXs06OtVD .title {
+  margin-bottom: 2rem;
+}
+.cid-rrXs06OtVD .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rrXs06OtVD a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rrXs06OtVD a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rrXs06OtVD textarea.form-control {
+  min-height: 188px;
+}
+.cid-rrXs06OtVD H2 {
+  color: #84deff;
+}
+.cid-rrXs06OtVD LABEL {
+  color: #ffa5ef;
+}
 .cid-rrXkU51TLi {
   padding-top: 15px;
   padding-bottom: 0px;
